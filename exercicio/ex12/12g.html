@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        p {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin-right: 400px;
+        }
+
+        .flex {
+            border: 1px solid black;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="flex">
+            <div>
+                <img src="cat.jpg" alt="cat">
+            </div>
+
+            <div>
+                <p>Oliver</p>
+                <p>the cat</p>
+                <p>Popular</p>
+            </div>
+
+            <div>
+                <button>
+                    Follow
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
