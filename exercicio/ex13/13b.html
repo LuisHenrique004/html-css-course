@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            height: 50px;
+
+            display: flex;
+            flex-direction: row;
+        }
+
+        .colum1 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .colum2 {
+            background-color: lightblue;
+            width: 200px;
+           
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row2-item {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="colum1"></div>
+        <div class="colum2">
+            <div class="row1">row1</div>
+            <div class="row2">
+                <div class="row2-item">row2</div>
+                <div class="row2-item">row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
