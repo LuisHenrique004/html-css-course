@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        * {
+            font-family: Arial;
+        }
+
+        .container {
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.15);
+            width: 400px;
+            padding: 10px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .picture {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 8px;
+        }
+
+        .flex-profile {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+        .user-name {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .user-search {
+            color: rgb(120, 120, 120);
+            margin-bottom: 5px;
+        }
+
+        .content {
+            margin-bottom: 10px;
+        }
+
+        .video-flex {
+            border: 1px solid rgba(120, 120, 120, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video {
+            background-color: rgba(120, 120, 120, 0.25);
+            height: 80px;
+            width: 150px;
+            margin-right: 10px;
+            
+        }
+
+        .video-link {
+            color: rgb(120, 120, 120);
+            margin-bottom: 4px;
+        }
+
+        .video-title {
+            font-weight: 700;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <div><img class="picture" src="../ex07/cat.jpg" alt="cat"></div>
+            <div>
+                <div class="flex-profile">
+                    <div class="user-name">supersimple.dev</div>
+                    <div class="user-search">@SuperSimpleDev</div>
+                </div>
+                <div class="content">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+                <div class="video-flex">
+                    <div class="video"></div>
+                    <div>
+                        <div class="video-link">youtube.com</div>
+                        <div class="video-title">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    
+</body>
+</html>
