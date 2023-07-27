@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        body {
+            height: 3000px;
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: rgb(27, 27, 27);
+            top: 5px;
+            left: 5px;
+            height: 230px;
+            border: 1px solid black;
+
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            align-items: top;
+            margin-left: 10px;
+        }
+
+        .flex-pictures {
+            display: flex;
+            flex-direction: column;
+            align-items: top;
+            margin-top: 20px;
+        }
+
+        .picture {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-top: 5px;
+        }
+
+        .flex-menu {
+            background-color: rgb(71, 71, 71);
+            margin-left: 15px;
+            height: 230px;
+            width: 120px;
+        }
+
+        .info {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between; 
+           align-items: center;
+        }
+
+        .information {
+            color: white;
+            font-size: 14px;
+        }
+
+        .plus {
+           color: rgb(126, 126, 126); 
+           font-size: 20px;
+        }
+
+        p {
+            color: rgb(126, 126, 126); 
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="fixed">
+        <div class="flex">
+            <div class="flex-pictures">
+                 <img  class="picture" src="../ex07/cat.jpg" alt="cat">
+                <img  class="picture" src="../ex07/cat.jpg" alt="cat">
+                <img  class="picture" src="../ex07/cat.jpg" alt="cat">
+            </div>
+            <div class="flex-menu">
+                    <div class="info">
+                        <p class="information">INFO</p>
+                        <p class="plus">+</p>
+                    </div>
+                    <p># new-video</p>
+                    <p># updates</p>
+                    <p># faq</p>
+            </div>
+        </div>   
+    </div> 
+</body>
+</html>
