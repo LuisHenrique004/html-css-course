@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .close-button {
+            position: absolute;
+            background-color: black;
+            border: none;
+            color: white;
+            border-radius: 50%;
+            font-size: 16px;
+            padding: 10px 15px;
+
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+
+            transition: opacity 0.15s, background-color 0.15s, color 0.15s, border 0.15s;
+        }
+
+        .close-button:hover {
+            opacity: 0.8;
+        }
+
+        .close-button:active{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            padding: 9px 14px;
+        }
+    </style>
+
+</head>
+<body>
+    <button class="close-button">X</button>
+</body>
+</html>
