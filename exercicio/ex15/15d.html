@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+         body {
+            height: 3000px;
+        }
+
+        .box-fixed {
+            background-color: rgb(126, 126, 126);
+            width: 320px;
+            height: 180px;
+
+            position: fixed;
+            left: 50px;
+            bottom: 10px;
+        }
+
+        .close-button {
+            position: absolute;
+            background-color: black;
+            border: none;
+            color: white;
+            border-radius: 50%;
+            font-size: 16px;
+            padding: 10px 15px;
+
+            left: -15px;
+            top: -15px;
+            cursor: pointer;
+
+            transition: opacity 0.15s, background-color 0.15s, color 0.15s, border 0.15s;
+        }
+
+        .close-button:hover {
+            opacity: 0.8;
+        }
+
+        .close-button:active{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            padding: 9px 14px;
+        }
+
+        .video-time {
+            background-color: black;
+            color: white;
+            padding: 3px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box-fixed">
+        <button class="close-button">X</button>
+        <div class="video-time">0:29</div>
+    </div>
+</body>
+</html>
