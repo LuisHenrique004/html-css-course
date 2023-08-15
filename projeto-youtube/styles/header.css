@@ -87,7 +87,6 @@ header {
 .upload-icon-container .tooltip,
 .apps-icon-container .tooltip,
 .notifications-icon-container .tooltip {
-    font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
     color: white;
@@ -162,7 +161,6 @@ header {
     right: -5px;
     background-color: rgb(194, 0, 0);
     color: white;
-    font-family: Roboto, Arial;
     font-size: 11px;
     padding: 2px 5px;
     border-radius: 10px;
