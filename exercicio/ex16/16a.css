@@ -54,4 +54,17 @@ body {
   opacity: 1;
 }
 
+.notifications-count {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 25px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 
